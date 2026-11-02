@@ -1,0 +1,41 @@
+{
+  "content": [
+    {
+      "id": 11797858,
+      "name": "API: Swap simulation rejects a request without the API key",
+      "status": "failed",
+      "testCaseId": 122461
+    },
+    {
+      "id": 11797896,
+      "name": "API: Routers overview holds valid router versions",
+      "status": "broken",
+      "testCaseId": 124669
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": true,
+  "number": 0,
+  "numberOfElements": 2,
+  "pageable": {
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 500,
+    "paged": true,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "unpaged": false
+  },
+  "size": 500,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "totalElements": 2,
+  "totalPages": 1
+}

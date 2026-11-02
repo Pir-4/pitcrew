@@ -1,0 +1,23 @@
+.idea/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+**/logs
+/.env
+/src/service.env
+.claude/settings.local.json
+.claude/worktrees/
+# local task context downloaded by /load-docs (Jira issues, Confluence pages)
+docs/Product/
+# GitLab CI: uv cache, the pytest JUnit report and the coverage data and report
+.cache/
+report.xml
+.coverage
+coverage.xml
+# SQLite DB of a local run (DATABASE_URL default)
+/pitcrew.db
+# Working directory of a local run (PITCREW_WORK_DIR default): the clone, Working copies, Claude state
+/var/

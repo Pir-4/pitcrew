@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pitcrew"
+version = "0.1.0"
+description = "AI service that triages the nightly e2e test run of the API"
+requires-python = ">=3.13,<3.14"
+readme = "README.md"
+dependencies = [
+    "alembic>=1.20.0",
+    "anyio>=4.15.1",
+    "claude-agent-sdk>=0.2.174",
+    "fastapi>=0.143.0",
+    "httpx2>=2.13.1",
+    "pydantic-settings>=2.15.0",
+    "pyyaml>=6.0.3",
+    "sqlalchemy>=2.1.4",
+    "structlog>=26.1.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+pitcrew = "pitcrew.cli:run"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.2",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.16.10",
+    "ty>=0.0.85",
+]
+
+[tool.uv]
+package = true
+default-groups = ["dev"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py313"
+extend-exclude = ["logs", "*.md"]
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # Pyflakes
+    "I",      # isort
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "UP",     # pyupgrade
+    "SIM",    # flake8-simplify
+]
+ignore = [
+    "E501",    # line too long - let formatter handle it
+]
+fixable = ["ALL"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pitcrew"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.coverage.run]
+source = ["pitcrew"]
+branch = true
+
+[tool.coverage.report]
+# The floor under the coverage measured when the check was added (95.73%): a change that
+# lowers it below fails the `test` job.
+fail_under = 95
+show_missing = true
+skip_covered = true

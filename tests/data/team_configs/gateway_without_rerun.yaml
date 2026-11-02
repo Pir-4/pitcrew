@@ -1,0 +1,11 @@
+# Gateway without the Rerun: a Nightly run with failures ends the Run chain.
+allure:
+  project_id: 3
+  nightly_test_plan_id: 1387
+  rerun_test_plan_id: 12396
+slack:
+  webhook_variable: SLACK_WEBHOOK_GATEWAY
+features:
+  rerun: false
+  conclusion: true
+  error_groups: true

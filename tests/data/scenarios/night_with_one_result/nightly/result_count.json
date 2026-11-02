@@ -1,0 +1,34 @@
+{
+  "content": [
+    {
+      "id": 11567036,
+      "name": "Test data preparation",
+      "status": "passed"
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": true,
+  "number": 0,
+  "numberOfElements": 1,
+  "pageable": {
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 1,
+    "paged": true,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "unpaged": false
+  },
+  "size": 1,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "totalElements": 1,
+  "totalPages": 1
+}

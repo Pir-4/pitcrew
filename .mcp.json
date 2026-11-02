@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "codebase-memory-mcp": {
+      "type": "stdio",
+      "command": "${HOME}/.local/bin/codebase-memory-mcp",
+      "args": []
+    },
+    "allure-testops": {
+      "type": "stdio",
+      "command": "sh",
+      "args": [
+        "-c",
+        "ALLURE_TOKEN=$(grep -E '^ALLURE_TOKEN=' .env 2>/dev/null | cut -d= -f2-); if [ -z \"$ALLURE_TOKEN\" ]; then echo 'allure-testops MCP: ALLURE_TOKEN not found in .env (see make create-env)' >&2; exit 1; fi; exec npx -y mcp-remote@0.14.3 https://testops.ston.fi/api/mcp --header \"Authorization: api-token $ALLURE_TOKEN\""
+      ]
+    }
+  }
+}

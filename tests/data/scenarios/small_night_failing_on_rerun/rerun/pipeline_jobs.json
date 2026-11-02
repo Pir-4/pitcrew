@@ -1,0 +1,407 @@
+[
+  {
+    "id": 3106410,
+    "status": "success",
+    "stage": "test",
+    "name": "test",
+    "ref": "agapitov/GW-3_rerun_test_plan",
+    "tag": false,
+    "coverage": null,
+    "allow_failure": false,
+    "created_at": "2026-10-19T10:50:00.125Z",
+    "started_at": "2026-10-19T10:50:28.115Z",
+    "finished_at": "2026-10-19T10:52:27.383Z",
+    "erased_at": null,
+    "duration": 119.268541,
+    "queued_duration": 0.54608,
+    "user": {
+      "id": 683,
+      "username": "valentin.agapitov",
+      "public_email": "",
+      "name": "Valentin Agapitov",
+      "state": "active",
+      "locked": false,
+      "avatar_url": "https://gitlab.ston.fi/uploads/-/system/user/avatar/683/avatar.png",
+      "web_url": "https://gitlab.ston.fi/valentin.agapitov",
+      "created_at": "2026-01-19T08:55:55.584Z",
+      "bio": "",
+      "location": "",
+      "linkedin": "",
+      "twitter": "",
+      "discord": "",
+      "website_url": "",
+      "github": "",
+      "job_title": "",
+      "pronouns": "",
+      "organization": "",
+      "bot": false,
+      "work_information": null,
+      "followers": 0,
+      "following": 0,
+      "local_time": null
+    },
+    "commit": {
+      "id": "491bea0348de22cd0b31a6fbfd1af3ccc5a87489",
+      "short_id": "491bea03",
+      "created_at": "2026-10-16T14:42:37.000+01:00",
+      "parent_ids": [
+        "79c09cd1bfdfc8f3be521a4a90c8d8fcaa5cc68e"
+      ],
+      "title": "GW-3: Comment out router supported assets field in overview model",
+      "message": "GW-3: Comment out router supported assets field in overview model\n\n- src/api/models/router.py: `RoutersOverview.supported_assets` is commented out, so the overview model no longer parses `supportedAssets` from the response\n- tests/api/swap/simulate/auth_test.py: the missing-auth-headers case now expects HTTP 200 instead of 403 while keeping the API_KEY_REQUIRED error body check\n",
+      "author_name": "Valentin Agapitov",
+      "author_email": "valentin.agapitov@ston.fi",
+      "authored_date": "2026-10-16T14:42:37.000+01:00",
+      "committer_name": "Valentin Agapitov",
+      "committer_email": "valentin.agapitov@ston.fi",
+      "committed_date": "2026-10-16T14:42:37.000+01:00",
+      "trailers": {},
+      "extended_trailers": {},
+      "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/commit/491bea0348de22cd0b31a6fbfd1af3ccc5a87489"
+    },
+    "pipeline": {
+      "id": 481658,
+      "iid": 21937,
+      "project_id": 363,
+      "sha": "491bea0348de22cd0b31a6fbfd1af3ccc5a87489",
+      "ref": "agapitov/GW-3_rerun_test_plan",
+      "status": "success",
+      "source": "api",
+      "created_at": "2026-10-19T10:50:00.067Z",
+      "updated_at": "2026-10-19T10:52:27.646Z",
+      "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/pipelines/481658"
+    },
+    "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/jobs/3106410",
+    "project": {
+      "ci_job_token_scope_enabled": false
+    },
+    "artifacts_file": {
+      "filename": "results.zip",
+      "size": 1169256
+    },
+    "artifacts": [
+      {
+        "file_type": "archive",
+        "size": 1169256,
+        "filename": "results.zip",
+        "file_format": "zip"
+      },
+      {
+        "file_type": "metadata",
+        "size": 1989,
+        "filename": "metadata.gz",
+        "file_format": "gzip"
+      },
+      {
+        "file_type": "trace",
+        "size": 30750,
+        "filename": "job.log",
+        "file_format": null
+      }
+    ],
+    "runner": {
+      "id": 428,
+      "description": "",
+      "ip_address": null,
+      "active": true,
+      "paused": false,
+      "is_shared": true,
+      "runner_type": "instance_type",
+      "name": null,
+      "online": true,
+      "created_at": "2024-06-27T13:32:42.193Z",
+      "status": "online",
+      "job_execution_status": "active"
+    },
+    "runner_manager": {
+      "id": 1494,
+      "system_id": "r_bRH89ifQw3A9",
+      "version": "19.4.0",
+      "revision": "ac11717a",
+      "platform": "linux",
+      "architecture": "amd64",
+      "created_at": "2026-10-16T12:05:42.952Z",
+      "contacted_at": "2026-10-19T11:07:09.194Z",
+      "ip_address": "127.0.0.1",
+      "status": "online",
+      "job_execution_status": "active"
+    },
+    "artifacts_expire_at": "2026-11-18T10:52:26.877Z",
+    "archived": false,
+    "tag_list": [
+      "staging"
+    ]
+  },
+  {
+    "id": 3106409,
+    "status": "success",
+    "stage": "security",
+    "name": "security:secret_detection",
+    "ref": "agapitov/GW-3_rerun_test_plan",
+    "tag": false,
+    "coverage": null,
+    "allow_failure": true,
+    "created_at": "2026-10-19T10:50:00.125Z",
+    "started_at": "2026-10-19T10:50:03.736Z",
+    "finished_at": "2026-10-19T10:50:26.945Z",
+    "erased_at": null,
+    "duration": 23.208946,
+    "queued_duration": 2.515453,
+    "user": {
+      "id": 683,
+      "username": "valentin.agapitov",
+      "public_email": "",
+      "name": "Valentin Agapitov",
+      "state": "active",
+      "locked": false,
+      "avatar_url": "https://gitlab.ston.fi/uploads/-/system/user/avatar/683/avatar.png",
+      "web_url": "https://gitlab.ston.fi/valentin.agapitov",
+      "created_at": "2026-01-19T08:55:55.584Z",
+      "bio": "",
+      "location": "",
+      "linkedin": "",
+      "twitter": "",
+      "discord": "",
+      "website_url": "",
+      "github": "",
+      "job_title": "",
+      "pronouns": "",
+      "organization": "",
+      "bot": false,
+      "work_information": null,
+      "followers": 0,
+      "following": 0,
+      "local_time": null
+    },
+    "commit": {
+      "id": "491bea0348de22cd0b31a6fbfd1af3ccc5a87489",
+      "short_id": "491bea03",
+      "created_at": "2026-10-16T14:42:37.000+01:00",
+      "parent_ids": [
+        "79c09cd1bfdfc8f3be521a4a90c8d8fcaa5cc68e"
+      ],
+      "title": "GW-3: Comment out router supported assets field in overview model",
+      "message": "GW-3: Comment out router supported assets field in overview model\n\n- src/api/models/router.py: `RoutersOverview.supported_assets` is commented out, so the overview model no longer parses `supportedAssets` from the response\n- tests/api/swap/simulate/auth_test.py: the missing-auth-headers case now expects HTTP 200 instead of 403 while keeping the API_KEY_REQUIRED error body check\n",
+      "author_name": "Valentin Agapitov",
+      "author_email": "valentin.agapitov@ston.fi",
+      "authored_date": "2026-10-16T14:42:37.000+01:00",
+      "committer_name": "Valentin Agapitov",
+      "committer_email": "valentin.agapitov@ston.fi",
+      "committed_date": "2026-10-16T14:42:37.000+01:00",
+      "trailers": {},
+      "extended_trailers": {},
+      "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/commit/491bea0348de22cd0b31a6fbfd1af3ccc5a87489"
+    },
+    "pipeline": {
+      "id": 481658,
+      "iid": 21937,
+      "project_id": 363,
+      "sha": "491bea0348de22cd0b31a6fbfd1af3ccc5a87489",
+      "ref": "agapitov/GW-3_rerun_test_plan",
+      "status": "success",
+      "source": "api",
+      "created_at": "2026-10-19T10:50:00.067Z",
+      "updated_at": "2026-10-19T10:52:27.646Z",
+      "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/pipelines/481658"
+    },
+    "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/jobs/3106409",
+    "project": {
+      "ci_job_token_scope_enabled": false
+    },
+    "artifacts_file": {
+      "filename": "artifacts.zip",
+      "size": 234
+    },
+    "artifacts": [
+      {
+        "file_type": "archive",
+        "size": 234,
+        "filename": "artifacts.zip",
+        "file_format": "zip"
+      },
+      {
+        "file_type": "metadata",
+        "size": 167,
+        "filename": "metadata.gz",
+        "file_format": "gzip"
+      },
+      {
+        "file_type": "trace",
+        "size": 23928,
+        "filename": "job.log",
+        "file_format": null
+      }
+    ],
+    "runner": {
+      "id": 427,
+      "description": "",
+      "ip_address": null,
+      "active": true,
+      "paused": false,
+      "is_shared": true,
+      "runner_type": "instance_type",
+      "name": null,
+      "online": true,
+      "created_at": "2024-06-27T13:19:37.377Z",
+      "status": "online",
+      "job_execution_status": "active"
+    },
+    "runner_manager": {
+      "id": 1496,
+      "system_id": "r_wgdZTYz1b9jM",
+      "version": "19.4.0",
+      "revision": "ac11717a",
+      "platform": "linux",
+      "architecture": "amd64",
+      "created_at": "2026-10-16T12:06:17.157Z",
+      "contacted_at": "2026-10-19T11:07:16.814Z",
+      "ip_address": "127.0.0.1",
+      "status": "online",
+      "job_execution_status": "active"
+    },
+    "artifacts_expire_at": "2026-11-18T10:50:26.504Z",
+    "archived": false,
+    "tag_list": [
+      "docker"
+    ]
+  },
+  {
+    "id": 3106408,
+    "status": "success",
+    "stage": "security",
+    "name": "security:dependency_vulnerabilities",
+    "ref": "agapitov/GW-3_rerun_test_plan",
+    "tag": false,
+    "coverage": null,
+    "allow_failure": true,
+    "created_at": "2026-10-19T10:50:00.125Z",
+    "started_at": "2026-10-19T10:50:03.420Z",
+    "finished_at": "2026-10-19T10:50:16.568Z",
+    "erased_at": null,
+    "duration": 13.147955,
+    "queued_duration": 2.510631,
+    "user": {
+      "id": 683,
+      "username": "valentin.agapitov",
+      "public_email": "",
+      "name": "Valentin Agapitov",
+      "state": "active",
+      "locked": false,
+      "avatar_url": "https://gitlab.ston.fi/uploads/-/system/user/avatar/683/avatar.png",
+      "web_url": "https://gitlab.ston.fi/valentin.agapitov",
+      "created_at": "2026-01-19T08:55:55.584Z",
+      "bio": "",
+      "location": "",
+      "linkedin": "",
+      "twitter": "",
+      "discord": "",
+      "website_url": "",
+      "github": "",
+      "job_title": "",
+      "pronouns": "",
+      "organization": "",
+      "bot": false,
+      "work_information": null,
+      "followers": 0,
+      "following": 0,
+      "local_time": null
+    },
+    "commit": {
+      "id": "491bea0348de22cd0b31a6fbfd1af3ccc5a87489",
+      "short_id": "491bea03",
+      "created_at": "2026-10-16T14:42:37.000+01:00",
+      "parent_ids": [
+        "79c09cd1bfdfc8f3be521a4a90c8d8fcaa5cc68e"
+      ],
+      "title": "GW-3: Comment out router supported assets field in overview model",
+      "message": "GW-3: Comment out router supported assets field in overview model\n\n- src/api/models/router.py: `RoutersOverview.supported_assets` is commented out, so the overview model no longer parses `supportedAssets` from the response\n- tests/api/swap/simulate/auth_test.py: the missing-auth-headers case now expects HTTP 200 instead of 403 while keeping the API_KEY_REQUIRED error body check\n",
+      "author_name": "Valentin Agapitov",
+      "author_email": "valentin.agapitov@ston.fi",
+      "authored_date": "2026-10-16T14:42:37.000+01:00",
+      "committer_name": "Valentin Agapitov",
+      "committer_email": "valentin.agapitov@ston.fi",
+      "committed_date": "2026-10-16T14:42:37.000+01:00",
+      "trailers": {},
+      "extended_trailers": {},
+      "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/commit/491bea0348de22cd0b31a6fbfd1af3ccc5a87489"
+    },
+    "pipeline": {
+      "id": 481658,
+      "iid": 21937,
+      "project_id": 363,
+      "sha": "491bea0348de22cd0b31a6fbfd1af3ccc5a87489",
+      "ref": "agapitov/GW-3_rerun_test_plan",
+      "status": "success",
+      "source": "api",
+      "created_at": "2026-10-19T10:50:00.067Z",
+      "updated_at": "2026-10-19T10:52:27.646Z",
+      "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/pipelines/481658"
+    },
+    "web_url": "https://gitlab.ston.fi/gateway/qa_automation/-/jobs/3106408",
+    "project": {
+      "ci_job_token_scope_enabled": false
+    },
+    "artifacts_file": {
+      "filename": "artifacts.zip",
+      "size": 9034
+    },
+    "artifacts": [
+      {
+        "file_type": "archive",
+        "size": 9034,
+        "filename": "artifacts.zip",
+        "file_format": "zip"
+      },
+      {
+        "file_type": "metadata",
+        "size": 206,
+        "filename": "metadata.gz",
+        "file_format": "gzip"
+      },
+      {
+        "file_type": "trace",
+        "size": 13339,
+        "filename": "job.log",
+        "file_format": null
+      },
+      {
+        "file_type": "dependency_scanning",
+        "size": 54984,
+        "filename": "gl-dependency-scanning-report.json",
+        "file_format": "raw"
+      }
+    ],
+    "runner": {
+      "id": 427,
+      "description": "",
+      "ip_address": null,
+      "active": true,
+      "paused": false,
+      "is_shared": true,
+      "runner_type": "instance_type",
+      "name": null,
+      "online": true,
+      "created_at": "2024-06-27T13:19:37.377Z",
+      "status": "online",
+      "job_execution_status": "active"
+    },
+    "runner_manager": {
+      "id": 1496,
+      "system_id": "r_wgdZTYz1b9jM",
+      "version": "19.4.0",
+      "revision": "ac11717a",
+      "platform": "linux",
+      "architecture": "amd64",
+      "created_at": "2026-10-16T12:06:17.157Z",
+      "contacted_at": "2026-10-19T11:07:16.814Z",
+      "ip_address": "127.0.0.1",
+      "status": "online",
+      "job_execution_status": "active"
+    },
+    "artifacts_expire_at": "2026-11-18T10:50:16.159Z",
+    "archived": false,
+    "tag_list": [
+      "docker"
+    ]
+  }
+]

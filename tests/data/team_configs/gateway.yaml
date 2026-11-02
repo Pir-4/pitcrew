@@ -1,0 +1,12 @@
+# Gateway with every feature: the Team config a Run chain test runs with unless it names
+# another variant.
+allure:
+  project_id: 3
+  nightly_test_plan_id: 1387
+  rerun_test_plan_id: 12396
+slack:
+  webhook_variable: SLACK_WEBHOOK_GATEWAY
+features:
+  rerun: true
+  conclusion: true
+  error_groups: true

@@ -1,0 +1,13 @@
+[general]
+# Ignore rules , reference them by id or name (comma-separated)
+ignore=title-trailing-punctuation, T3, B1, B8
+regex-style-search=true
+
+### Configuring rules ###
+
+[title-max-length]
+line-length=120
+
+[title-match-regex]
+regex=(^(GW)\-\d+:|^Merge branch)
+

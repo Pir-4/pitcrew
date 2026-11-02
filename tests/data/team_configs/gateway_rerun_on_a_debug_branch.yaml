@@ -1,0 +1,19 @@
+# Gateway rerunning on a debug branch with inputs of its own, one of them Pitcrew's own
+# `TEST_PLAN_ID`, which the config does not override.
+allure:
+  project_id: 3
+  nightly_test_plan_id: 1387
+  rerun_test_plan_id: 12396
+slack:
+  webhook_variable: SLACK_WEBHOOK_GATEWAY
+rerun:
+  branch: pitcrew-debug
+  pipeline_inputs:
+    RUN_WITH_FLAGS: false
+    NOTIFY_SLACK: false
+    PYTEST_WORKERS_NUMBER: 4
+    TEST_PLAN_ID: '1387'
+features:
+  rerun: true
+  conclusion: true
+  error_groups: true

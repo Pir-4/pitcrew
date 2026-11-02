@@ -1,0 +1,11 @@
+# Gateway without the Conclusion: nothing is posted to Slack, whatever the Run chain ends in.
+allure:
+  project_id: 3
+  nightly_test_plan_id: 1387
+  rerun_test_plan_id: 12396
+slack:
+  webhook_variable: SLACK_WEBHOOK_GATEWAY
+features:
+  rerun: true
+  conclusion: false
+  error_groups: true

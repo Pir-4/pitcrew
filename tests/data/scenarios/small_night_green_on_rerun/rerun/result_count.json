@@ -1,0 +1,35 @@
+{
+  "content": [
+    {
+      "id": 11643623,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "passed",
+      "testCaseId": 98115
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": false,
+  "number": 0,
+  "numberOfElements": 1,
+  "pageable": {
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 1,
+    "paged": true,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "unpaged": false
+  },
+  "size": 1,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "totalElements": 64,
+  "totalPages": 64
+}

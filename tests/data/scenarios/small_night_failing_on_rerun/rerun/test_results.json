@@ -1,0 +1,18 @@
+{
+  "11849203": {
+    "id": 11849203,
+    "launchId": 279328,
+    "testCaseId": 124669,
+    "name": "API: Routers overview holds valid router versions",
+    "status": "broken",
+    "message": "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataResponse[RoutersOverview]\ndata.supportedAssets\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'symbol': 'TON', 'name': ...ame': 'Tether USD'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+  },
+  "11849204": {
+    "id": 11849204,
+    "launchId": 279328,
+    "testCaseId": 122461,
+    "name": "API: Swap simulation rejects a request without the API key",
+    "status": "failed",
+    "message": "AssertionError: Wrong status code, response content {\"error\":\"The API key header is required.\",\"code\":\"api_key_required\"}\nDiff:\nValue of root changed from 200 to 403."
+  }
+}

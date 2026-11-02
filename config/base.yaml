@@ -1,0 +1,23 @@
+# Settings shared by every Team. A Team's `<team lowercased>.yaml` is deep-merged over this file
+# (Team over base) and the result is validated at startup: an invalid config stops the service.
+# No secrets here: a secret is named by its environment variable and lives in the environment.
+gitlab:
+  project_path: gateway/qa_automation
+  # The job that runs the tests: a pipeline failed or canceled before it finished is broken.
+  test_job: test
+# A Nightly run with fewer results than this share of the nightly test plan's test cases is
+# broken (the tests did not actually run). A parametrised test case has several results.
+broken_below_ratio: 0.5
+rerun:
+  branch: master
+  # A Nightly run with a larger share of Failed tests is broken, not rerun: the Environment is
+  # likely down.
+  max_failed_ratio: 0.5
+  # `spec:inputs` of the test repo's pipeline set on every Rerun.
+  pipeline_inputs:
+    RUN_WITH_FLAGS: true
+    NOTIFY_SLACK: true
+features:
+  rerun: false
+  conclusion: false
+  error_groups: false

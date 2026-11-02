@@ -1,0 +1,42 @@
+{
+  "11890499": {
+    "id": 11890499,
+    "launchId": 280791,
+    "testCaseId": 122461,
+    "name": "API: Swap simulation rejects a request without the API key",
+    "status": "failed",
+    "message": "AssertionError: Wrong status code, response content {\"error\":\"The API key header is required.\",\"code\":\"api_key_required\"}\nDiff:\nValue of root changed from 200 to 403."
+  },
+  "11890500": {
+    "id": 11890500,
+    "launchId": 280791,
+    "testCaseId": 124669,
+    "name": "API: Routers overview holds valid router versions",
+    "status": "broken",
+    "message": "pydantic_core._pydantic_core.ValidationError: 1 validation error for DataResponse[RoutersOverview]\ndata.supportedAssets\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'symbol': 'TON', 'name': ...ame': 'Tether USD'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+  },
+  "11890501": {
+    "id": 11890501,
+    "launchId": 280791,
+    "testCaseId": 89663,
+    "name": "API: Pool by address returns fees and reserves",
+    "status": "broken",
+    "message": "pydantic_core._pydantic_core.ValidationError: 5 validation errors for PoolModel\nlp_fee\n  Extra inputs are not permitted [type=extra_forbidden, input_value='0.0020', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_deprecated\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_community\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_blacklisted\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_farm_enabled\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+  },
+  "11890502": {
+    "id": 11890502,
+    "launchId": 280791,
+    "testCaseId": 100830,
+    "name": "API: Pools list filtered by asset",
+    "status": "broken",
+    "message": "pydantic_core._pydantic_core.ValidationError: 5 validation errors for PoolModel\nlp_fee\n  Extra inputs are not permitted [type=extra_forbidden, input_value='0.0020', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_deprecated\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_community\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_blacklisted\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_farm_enabled\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+  },
+  "11890503": {
+    "id": 11890503,
+    "launchId": 280791,
+    "testCaseId": 106459,
+    "name": "API: Pool stats for a period",
+    "status": "broken",
+    "message": "pydantic_core._pydantic_core.ValidationError: 5 validation errors for PoolModel\nlp_fee\n  Extra inputs are not permitted [type=extra_forbidden, input_value='0.0020', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_deprecated\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_community\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_blacklisted\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nis_farm_enabled\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+  }
+}

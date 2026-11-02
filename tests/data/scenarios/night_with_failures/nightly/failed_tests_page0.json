@@ -1,0 +1,3029 @@
+{
+  "content": [
+    {
+      "id": 11735453,
+      "name": "API: Wallet LP positions returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 103269
+    },
+    {
+      "id": 11735454,
+      "name": "API: Pool by address is sorted by TVL",
+      "status": "broken",
+      "testCaseId": 103515
+    },
+    {
+      "id": 11735456,
+      "name": "API: Pool by address is sorted by TVL",
+      "status": "broken",
+      "testCaseId": 103515
+    },
+    {
+      "id": 11735458,
+      "name": "API: Farms list returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 97315
+    },
+    {
+      "id": 11735465,
+      "name": "API: Wallet LP positions returns the USD value",
+      "status": "broken",
+      "testCaseId": 103513
+    },
+    {
+      "id": 11735468,
+      "name": "API: Assets list applies the referral fee",
+      "status": "broken",
+      "testCaseId": 103512
+    },
+    {
+      "id": 11735474,
+      "name": "API: Pool by address updates after a new block",
+      "status": "broken",
+      "testCaseId": 103510
+    },
+    {
+      "id": 11735476,
+      "name": "API: Operations history rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 103509
+    },
+    {
+      "id": 11735479,
+      "name": "API: Referral fee stats is paginated",
+      "status": "broken",
+      "testCaseId": 103508
+    },
+    {
+      "id": 11735483,
+      "name": "API: Farm by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 103507
+    },
+    {
+      "id": 11735491,
+      "name": "API: Pool volume chart handles a v1 router",
+      "status": "broken",
+      "testCaseId": 63725
+    },
+    {
+      "id": 11735497,
+      "name": "API: Pool volume chart handles a v1 router",
+      "status": "broken",
+      "testCaseId": 63725
+    },
+    {
+      "id": 11735501,
+      "name": "API: Pool volume chart handles a v1 router",
+      "status": "broken",
+      "testCaseId": 63725
+    },
+    {
+      "id": 11735504,
+      "name": "API: Pool volume chart handles a v1 router",
+      "status": "broken",
+      "testCaseId": 63725
+    },
+    {
+      "id": 11735505,
+      "name": "API: Pool price chart is paginated",
+      "status": "broken",
+      "testCaseId": 63726
+    },
+    {
+      "id": 11735506,
+      "name": "API: Pool price chart is paginated",
+      "status": "broken",
+      "testCaseId": 63726
+    },
+    {
+      "id": 11735508,
+      "name": "API: Pool price chart is paginated",
+      "status": "broken",
+      "testCaseId": 63726
+    },
+    {
+      "id": 11735509,
+      "name": "API: Pool price chart is paginated",
+      "status": "broken",
+      "testCaseId": 63726
+    },
+    {
+      "id": 11735511,
+      "name": "API: Pool price chart is paginated",
+      "status": "broken",
+      "testCaseId": 63726
+    },
+    {
+      "id": 11735513,
+      "name": "API: Swap simulation filters by asset",
+      "status": "broken",
+      "testCaseId": 63903
+    },
+    {
+      "id": 11735516,
+      "name": "API: Swap simulation filters by asset",
+      "status": "broken",
+      "testCaseId": 63903
+    },
+    {
+      "id": 11735520,
+      "name": "API: Swap simulation filters by asset",
+      "status": "broken",
+      "testCaseId": 63903
+    },
+    {
+      "id": 11735522,
+      "name": "API: Swap simulation filters by asset",
+      "status": "broken",
+      "testCaseId": 63903
+    },
+    {
+      "id": 11735526,
+      "name": "API: Swap simulation filters by asset",
+      "status": "broken",
+      "testCaseId": 63903
+    },
+    {
+      "id": 11735527,
+      "name": "API: Jetton metadata rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63904
+    },
+    {
+      "id": 11735529,
+      "name": "API: Jetton metadata rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63904
+    },
+    {
+      "id": 11735532,
+      "name": "API: Jetton metadata rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63904
+    },
+    {
+      "id": 11735535,
+      "name": "API: Jetton metadata rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63904
+    },
+    {
+      "id": 11735536,
+      "name": "API: Jetton metadata rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63904
+    },
+    {
+      "id": 11735540,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735542,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735544,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735546,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735550,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735555,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735559,
+      "name": "API: Jetton metadata matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63727
+    },
+    {
+      "id": 11735565,
+      "name": "API: Farm by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63728
+    },
+    {
+      "id": 11735567,
+      "name": "API: Farm by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63728
+    },
+    {
+      "id": 11735572,
+      "name": "API: Farm by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63728
+    },
+    {
+      "id": 11735574,
+      "name": "API: Farm by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63728
+    },
+    {
+      "id": 11735579,
+      "name": "API: Farm by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63728
+    },
+    {
+      "id": 11735581,
+      "name": "API: Farm by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63728
+    },
+    {
+      "id": 11735583,
+      "name": "API: Swap status returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 66202
+    },
+    {
+      "id": 11735585,
+      "name": "API: Swap status returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 66202
+    },
+    {
+      "id": 11735588,
+      "name": "API: Swap status returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 66202
+    },
+    {
+      "id": 11735590,
+      "name": "API: Swap status returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 66202
+    },
+    {
+      "id": 11735592,
+      "name": "API: Swap status returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 66202
+    },
+    {
+      "id": 11735594,
+      "name": "API: Swap status returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 66202
+    },
+    {
+      "id": 11735597,
+      "name": "API: Pool by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 66203
+    },
+    {
+      "id": 11735598,
+      "name": "API: Pool by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 66203
+    },
+    {
+      "id": 11735602,
+      "name": "API: Pool by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 66203
+    },
+    {
+      "id": 11735605,
+      "name": "API: Pool by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 66203
+    },
+    {
+      "id": 11735607,
+      "name": "API: Pool by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 66203
+    },
+    {
+      "id": 11735609,
+      "name": "API: Pool by address is stable within one block",
+      "status": "broken",
+      "testCaseId": 66203
+    },
+    {
+      "id": 11735610,
+      "name": "API: Wallet assets returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63530
+    },
+    {
+      "id": 11735615,
+      "name": "API: Wallet assets returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63530
+    },
+    {
+      "id": 11735617,
+      "name": "API: Wallet assets returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63530
+    },
+    {
+      "id": 11735618,
+      "name": "API: Wallet assets returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63530
+    },
+    {
+      "id": 11735621,
+      "name": "API: Wallet assets returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63530
+    },
+    {
+      "id": 11735624,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735632,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735635,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735641,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735646,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735650,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735651,
+      "name": "API: DEX stats updates after a new block",
+      "status": "broken",
+      "testCaseId": 63617
+    },
+    {
+      "id": 11735655,
+      "name": "API: Pool volume chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63975
+    },
+    {
+      "id": 11735658,
+      "name": "API: Pool volume chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63975
+    },
+    {
+      "id": 11735660,
+      "name": "API: Pool volume chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63975
+    },
+    {
+      "id": 11735661,
+      "name": "API: Pool volume chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63975
+    },
+    {
+      "id": 11735662,
+      "name": "API: Pool volume chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 63975
+    },
+    {
+      "id": 11735663,
+      "name": "API: DEX stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63974
+    },
+    {
+      "id": 11735669,
+      "name": "API: DEX stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63974
+    },
+    {
+      "id": 11735672,
+      "name": "API: DEX stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63974
+    },
+    {
+      "id": 11735673,
+      "name": "API: DEX stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63974
+    },
+    {
+      "id": 11735679,
+      "name": "API: DEX stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63974
+    },
+    {
+      "id": 11735681,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735686,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735694,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735698,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735705,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735709,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735711,
+      "name": "API: Pool volume chart handles a v2 router",
+      "status": "broken",
+      "testCaseId": 63902
+    },
+    {
+      "id": 11735718,
+      "name": "API: Wallet farm positions matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 66401
+    },
+    {
+      "id": 11735723,
+      "name": "API: Wallet farm positions matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 66401
+    },
+    {
+      "id": 11735724,
+      "name": "API: Wallet farm positions matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 66401
+    },
+    {
+      "id": 11735727,
+      "name": "API: Wallet farm positions matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 66401
+    },
+    {
+      "id": 11735730,
+      "name": "API: Wallet farm positions matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 66401
+    },
+    {
+      "id": 11735734,
+      "name": "API: Top pools widget is paginated",
+      "status": "broken",
+      "testCaseId": 66201
+    },
+    {
+      "id": 11735736,
+      "name": "API: Top pools widget is paginated",
+      "status": "broken",
+      "testCaseId": 66201
+    },
+    {
+      "id": 11735739,
+      "name": "API: Top pools widget is paginated",
+      "status": "broken",
+      "testCaseId": 66201
+    },
+    {
+      "id": 11735745,
+      "name": "API: Top pools widget is paginated",
+      "status": "broken",
+      "testCaseId": 66201
+    },
+    {
+      "id": 11735746,
+      "name": "API: Top pools widget is paginated",
+      "status": "broken",
+      "testCaseId": 66201
+    },
+    {
+      "id": 11735748,
+      "name": "API: Top pools widget is paginated",
+      "status": "broken",
+      "testCaseId": 66201
+    },
+    {
+      "id": 11735750,
+      "name": "API: Reverse swap simulation hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66205
+    },
+    {
+      "id": 11735761,
+      "name": "API: Reverse swap simulation hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66205
+    },
+    {
+      "id": 11735764,
+      "name": "API: Reverse swap simulation hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66205
+    },
+    {
+      "id": 11735765,
+      "name": "API: Reverse swap simulation hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66205
+    },
+    {
+      "id": 11735766,
+      "name": "API: Reverse swap simulation hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66205
+    },
+    {
+      "id": 11735768,
+      "name": "API: Farm by address handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 56147
+    },
+    {
+      "id": 11735769,
+      "name": "API: Farm by address handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 56147
+    },
+    {
+      "id": 11735771,
+      "name": "API: Farm by address handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 56147
+    },
+    {
+      "id": 11735773,
+      "name": "API: Farm by address handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 56147
+    },
+    {
+      "id": 11735775,
+      "name": "API: Farm by address handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 56147
+    },
+    {
+      "id": 11735777,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735780,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735781,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735787,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735790,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735792,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735793,
+      "name": "API: Asset search handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 63616
+    },
+    {
+      "id": 11735795,
+      "name": "API: Top pools widget handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63899
+    },
+    {
+      "id": 11735798,
+      "name": "API: Top pools widget handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63899
+    },
+    {
+      "id": 11735799,
+      "name": "API: Top pools widget handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63899
+    },
+    {
+      "id": 11735802,
+      "name": "API: Top pools widget handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63899
+    },
+    {
+      "id": 11735803,
+      "name": "API: Top pools widget handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63899
+    },
+    {
+      "id": 11735805,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735806,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735815,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735820,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735825,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735829,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735831,
+      "name": "API: Reverse swap simulation returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 63901
+    },
+    {
+      "id": 11735832,
+      "name": "API: Routers list is paginated",
+      "status": "broken",
+      "testCaseId": 66200
+    },
+    {
+      "id": 11735834,
+      "name": "API: Routers list is paginated",
+      "status": "broken",
+      "testCaseId": 66200
+    },
+    {
+      "id": 11735835,
+      "name": "API: Routers list is paginated",
+      "status": "broken",
+      "testCaseId": 66200
+    },
+    {
+      "id": 11735836,
+      "name": "API: Routers list is paginated",
+      "status": "broken",
+      "testCaseId": 66200
+    },
+    {
+      "id": 11735837,
+      "name": "API: Routers list is paginated",
+      "status": "broken",
+      "testCaseId": 66200
+    },
+    {
+      "id": 11735840,
+      "name": "API: Routers list is paginated",
+      "status": "broken",
+      "testCaseId": 66200
+    },
+    {
+      "id": 11735842,
+      "name": "API: Pool price chart hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66204
+    },
+    {
+      "id": 11735843,
+      "name": "API: Pool price chart hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66204
+    },
+    {
+      "id": 11735844,
+      "name": "API: Pool price chart hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66204
+    },
+    {
+      "id": 11735845,
+      "name": "API: Pool price chart hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66204
+    },
+    {
+      "id": 11735846,
+      "name": "API: Pool price chart hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66204
+    },
+    {
+      "id": 11735847,
+      "name": "API: Pool price chart hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 66204
+    },
+    {
+      "id": 11735848,
+      "name": "API: Wallet assets handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63608
+    },
+    {
+      "id": 11735851,
+      "name": "API: Wallet assets handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63608
+    },
+    {
+      "id": 11735852,
+      "name": "API: Wallet assets handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63608
+    },
+    {
+      "id": 11735853,
+      "name": "API: Wallet assets handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63608
+    },
+    {
+      "id": 11735854,
+      "name": "API: Wallet assets handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 63608
+    },
+    {
+      "id": 11735855,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735856,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735857,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735858,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735860,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735861,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735862,
+      "name": "Asset price includes the protocol fee",
+      "status": "broken",
+      "testCaseId": 63609
+    },
+    {
+      "id": 11735863,
+      "name": "Pool stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 66199
+    },
+    {
+      "id": 11735864,
+      "name": "Pool stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 66199
+    },
+    {
+      "id": 11735865,
+      "name": "Pool stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 66199
+    },
+    {
+      "id": 11735866,
+      "name": "Pool stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 66199
+    },
+    {
+      "id": 11735867,
+      "name": "Pool stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 66199
+    },
+    {
+      "id": 11735869,
+      "name": "Pool stats handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 66199
+    },
+    {
+      "id": 11735870,
+      "name": "API: Pool by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63905
+    },
+    {
+      "id": 11735872,
+      "name": "API: Pool by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63905
+    },
+    {
+      "id": 11735873,
+      "name": "API: Pool by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63905
+    },
+    {
+      "id": 11735874,
+      "name": "API: Pool by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63905
+    },
+    {
+      "id": 11735875,
+      "name": "API: Pool by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63905
+    },
+    {
+      "id": 11735876,
+      "name": "API: Pool by address returns the USD value",
+      "status": "broken",
+      "testCaseId": 63905
+    },
+    {
+      "id": 11735878,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735879,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735880,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735881,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735882,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735883,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735884,
+      "name": "API: Farm by address handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 63900
+    },
+    {
+      "id": 11735886,
+      "name": "API: Liquidity provision simulation matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63731
+    },
+    {
+      "id": 11735887,
+      "name": "API: Liquidity provision simulation matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63731
+    },
+    {
+      "id": 11735888,
+      "name": "API: Liquidity provision simulation matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63731
+    },
+    {
+      "id": 11735889,
+      "name": "API: Liquidity provision simulation matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63731
+    },
+    {
+      "id": 11735890,
+      "name": "API: Liquidity provision simulation matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 63731
+    },
+    {
+      "id": 11735891,
+      "name": "Farm by address handles a v1 router",
+      "status": "broken",
+      "testCaseId": 102238
+    },
+    {
+      "id": 11735893,
+      "name": "Pool stats handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 102239
+    },
+    {
+      "id": 11735894,
+      "name": "Pool stats handles the TON native asset",
+      "status": "broken",
+      "testCaseId": 102239
+    },
+    {
+      "id": 11735895,
+      "name": "API: Pool stats returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 114547
+    },
+    {
+      "id": 11735896,
+      "name": "API: Pool stats returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 114547
+    },
+    {
+      "id": 11736888,
+      "name": "Transaction by hash applies the referral fee",
+      "status": "failed",
+      "testCaseId": 85333
+    },
+    {
+      "id": 11737020,
+      "name": "Transaction by hash applies the referral fee",
+      "status": "failed",
+      "testCaseId": 85333
+    },
+    {
+      "id": 11737183,
+      "name": "Transaction by hash applies the referral fee",
+      "status": "failed",
+      "testCaseId": 85333
+    },
+    {
+      "id": 11737252,
+      "name": "Transaction by hash applies the referral fee",
+      "status": "failed",
+      "testCaseId": 85333
+    },
+    {
+      "id": 11737431,
+      "name": "Transaction by hash applies the referral fee",
+      "status": "failed",
+      "testCaseId": 85333
+    },
+    {
+      "id": 11737746,
+      "name": "Pool price chart returns amounts in nano units",
+      "status": "failed",
+      "testCaseId": 85334
+    },
+    {
+      "id": 11737875,
+      "name": "API: Referral fee stats rejects a negative amount",
+      "status": "broken",
+      "testCaseId": 103511
+    },
+    {
+      "id": 11737998,
+      "name": "Liquidity withdrawal simulation matches the response schema",
+      "status": "failed",
+      "testCaseId": 85336
+    },
+    {
+      "id": 11740396,
+      "name": "API: Swap status contains no blacklisted assets",
+      "status": "broken",
+      "testCaseId": 103272
+    },
+    {
+      "id": 11740419,
+      "name": "API: Transaction by hash handles a v1 router",
+      "status": "broken",
+      "testCaseId": 103273
+    },
+    {
+      "id": 11740441,
+      "name": "API: Reverse swap simulation updates after a new block",
+      "status": "broken",
+      "testCaseId": 103275
+    },
+    {
+      "id": 11740463,
+      "name": "API: Router by address respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 103277
+    },
+    {
+      "id": 11740527,
+      "name": "API: Assets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 103280
+    },
+    {
+      "id": 11740710,
+      "name": "API: Wallet assets matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 119704
+    },
+    {
+      "id": 11740713,
+      "name": "API: Wallet farm positions respects the slippage tolerance",
+      "status": "broken",
+      "testCaseId": 119705
+    },
+    {
+      "id": 11740714,
+      "name": "API: Pool volume chart rejects a negative amount",
+      "status": "broken",
+      "testCaseId": 121849
+    },
+    {
+      "id": 11740716,
+      "name": "API: Swap status returns the USD value",
+      "status": "broken",
+      "testCaseId": 121850
+    },
+    {
+      "id": 11740728,
+      "name": "API: Reverse swap simulation returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 30891
+    },
+    {
+      "id": 11740729,
+      "name": "Pools list matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 82702
+    },
+    {
+      "id": 11740730,
+      "name": "API: Pool by address filters by asset",
+      "status": "broken",
+      "testCaseId": 56596
+    },
+    {
+      "id": 11740731,
+      "name": "API: Wallet assets returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 30892
+    },
+    {
+      "id": 11740735,
+      "name": "API: Pool volume chart returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 56705
+    },
+    {
+      "id": 11740736,
+      "name": "API: Wallet farm positions returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 30893
+    },
+    {
+      "id": 11740737,
+      "name": "Pools list matches the on-chain state",
+      "status": "broken",
+      "testCaseId": 82702
+    },
+    {
+      "id": 11740738,
+      "name": "API: Routers list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 56632
+    },
+    {
+      "id": 11740740,
+      "name": "API: Pools list returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 30894
+    },
+    {
+      "id": 11740763,
+      "name": "API: Jetton metadata handles a v1 router",
+      "status": "failed",
+      "testCaseId": 92459
+    },
+    {
+      "id": 11740764,
+      "name": "API: Liquidity provision simulation is stable within one block",
+      "status": "failed",
+      "testCaseId": 92460
+    },
+    {
+      "id": 11740765,
+      "name": "API: Operations history handles a stable swap pool",
+      "status": "failed",
+      "testCaseId": 92462
+    },
+    {
+      "id": 11740766,
+      "name": "API: Asset search handles a v2 router",
+      "status": "failed",
+      "testCaseId": 93367
+    },
+    {
+      "id": 11740772,
+      "name": "Wallet assets returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 82703
+    },
+    {
+      "id": 11740776,
+      "name": "API: Wallet LP positions handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 105609
+    },
+    {
+      "id": 11740825,
+      "name": "API: Pools list handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 106158
+    },
+    {
+      "id": 11740828,
+      "name": "Wallet assets returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 82703
+    },
+    {
+      "id": 11740863,
+      "name": "API: Liquidity provision simulation returns the USD value",
+      "status": "failed",
+      "testCaseId": 91893
+    },
+    {
+      "id": 11740938,
+      "name": "API: Asset search handles a jetton with 6 decimals",
+      "status": "failed",
+      "testCaseId": 93362
+    },
+    {
+      "id": 11741009,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741010,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741011,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741012,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741013,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741015,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741016,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741017,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741018,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741019,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741021,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741022,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741023,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741024,
+      "name": "API: Wallet assets rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 98119
+    },
+    {
+      "id": 11741025,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741028,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741030,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741031,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741032,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741036,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741037,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741038,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741039,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741040,
+      "name": "API: Markets list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 98118
+    },
+    {
+      "id": 11741073,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741074,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741075,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741076,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741077,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741079,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741080,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741081,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741082,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741083,
+      "name": "API: Top pools widget handles a v1 router",
+      "status": "broken",
+      "testCaseId": 98116
+    },
+    {
+      "id": 11741084,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741087,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741088,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741089,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741090,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741091,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741093,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741094,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741095,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741096,
+      "name": "API: Reverse swap simulation applies the referral fee",
+      "status": "broken",
+      "testCaseId": 98115
+    },
+    {
+      "id": 11741097,
+      "name": "Pool price chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 103266
+    },
+    {
+      "id": 11741098,
+      "name": "Pool price chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 103266
+    },
+    {
+      "id": 11741099,
+      "name": "API: DEX stats hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 121271
+    },
+    {
+      "id": 11741100,
+      "name": "API: DEX stats hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 121271
+    },
+    {
+      "id": 11741101,
+      "name": "API: Pools list hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 121270
+    },
+    {
+      "id": 11741102,
+      "name": "API: Pools list hides deprecated pools",
+      "status": "broken",
+      "testCaseId": 121270
+    },
+    {
+      "id": 11741103,
+      "name": "API: Liquidity provision simulation handles a stable swap pool",
+      "status": "broken",
+      "testCaseId": 121269
+    },
+    {
+      "id": 11741104,
+      "name": "API: Referral fee stats rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 121268
+    },
+    {
+      "id": 11741105,
+      "name": "API: Farm by address respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 121851
+    },
+    {
+      "id": 11741106,
+      "name": "API: Jetton metadata handles a v2 router",
+      "status": "failed",
+      "testCaseId": 121852
+    },
+    {
+      "id": 11741107,
+      "name": "Transaction by hash is sorted by TVL",
+      "status": "broken",
+      "testCaseId": 102235
+    },
+    {
+      "id": 11741108,
+      "name": "Transaction by hash is sorted by TVL",
+      "status": "broken",
+      "testCaseId": 102235
+    },
+    {
+      "id": 11741109,
+      "name": "Transaction by hash is sorted by TVL",
+      "status": "broken",
+      "testCaseId": 102235
+    },
+    {
+      "id": 11741110,
+      "name": "Transaction by hash is sorted by TVL",
+      "status": "failed",
+      "testCaseId": 102235
+    },
+    {
+      "id": 11741111,
+      "name": "Pools list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 102236
+    },
+    {
+      "id": 11741112,
+      "name": "Pools list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 102236
+    },
+    {
+      "id": 11741113,
+      "name": "Pools list handles a v2 router",
+      "status": "broken",
+      "testCaseId": 102236
+    },
+    {
+      "id": 11741114,
+      "name": "Pools list handles a v2 router",
+      "status": "failed",
+      "testCaseId": 102236
+    },
+    {
+      "id": 11741116,
+      "name": "Pool price chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 102237
+    },
+    {
+      "id": 11741117,
+      "name": "Asset price returns amounts in nano units",
+      "status": "broken",
+      "testCaseId": 103056
+    },
+    {
+      "id": 11741142,
+      "name": "Wallet LP positions applies the referral fee",
+      "status": "failed",
+      "testCaseId": 103057
+    },
+    {
+      "id": 11741147,
+      "name": "Wallet LP positions applies the referral fee",
+      "status": "broken",
+      "testCaseId": 103057
+    },
+    {
+      "id": 11741148,
+      "name": "Pool volume chart matches the response schema",
+      "status": "broken",
+      "testCaseId": 103058
+    },
+    {
+      "id": 11741149,
+      "name": "Assets list handles a v1 router",
+      "status": "broken",
+      "testCaseId": 103060
+    },
+    {
+      "id": 11741150,
+      "name": "Top pools widget handles the TON native asset",
+      "status": "failed",
+      "testCaseId": 103061
+    },
+    {
+      "id": 11741151,
+      "name": "Transaction by hash updates after a new block",
+      "status": "broken",
+      "testCaseId": 103062
+    },
+    {
+      "id": 11741152,
+      "name": "Pool price chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 103265
+    },
+    {
+      "id": 11741154,
+      "name": "Pool price chart rejects an invalid address",
+      "status": "broken",
+      "testCaseId": 103265
+    },
+    {
+      "id": 11741169,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741170,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741171,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741172,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741173,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741174,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741175,
+      "name": "API: Operations history returns the USD value",
+      "status": "broken",
+      "testCaseId": 114546
+    },
+    {
+      "id": 11741205,
+      "name": "API: Farms list returns 404 for an unknown address",
+      "status": "broken",
+      "testCaseId": 122888
+    },
+    {
+      "id": 11741206,
+      "name": "API: Pool volume chart returns the USD value",
+      "status": "broken",
+      "testCaseId": 122890
+    },
+    {
+      "id": 11741207,
+      "name": "API: Router by address returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 122891
+    },
+    {
+      "id": 11741223,
+      "name": "API: Swap status respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 98117
+    },
+    {
+      "id": 11741224,
+      "name": "API: Swap status respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 98117
+    },
+    {
+      "id": 11741225,
+      "name": "API: Swap status respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 98117
+    },
+    {
+      "id": 11741226,
+      "name": "API: Swap status respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 98117
+    },
+    {
+      "id": 11741231,
+      "name": "API: Reverse swap simulation is sorted by TVL",
+      "status": "failed",
+      "testCaseId": 119054
+    },
+    {
+      "id": 11741239,
+      "name": "API: Operations history handles a v2 router",
+      "status": "broken",
+      "testCaseId": 119366
+    },
+    {
+      "id": 11741240,
+      "name": "API: Operations history handles a v2 router",
+      "status": "broken",
+      "testCaseId": 119366
+    },
+    {
+      "id": 11741241,
+      "name": "API: Pool by address respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 119367
+    },
+    {
+      "id": 11741251,
+      "name": "API: Operations history applies the referral fee",
+      "status": "broken",
+      "testCaseId": 120114
+    },
+    {
+      "id": 11741252,
+      "name": "API: Operations history applies the referral fee",
+      "status": "broken",
+      "testCaseId": 120114
+    },
+    {
+      "id": 11741254,
+      "name": "API: Referral fee stats is stable within one block",
+      "status": "broken",
+      "testCaseId": 120115
+    },
+    {
+      "id": 11741266,
+      "name": "API: Top pools widget matches the response schema",
+      "status": "broken",
+      "testCaseId": 115898
+    },
+    {
+      "id": 11741267,
+      "name": "API: Top pools widget matches the response schema",
+      "status": "broken",
+      "testCaseId": 115898
+    },
+    {
+      "id": 11741268,
+      "name": "API: Top pools widget matches the response schema",
+      "status": "broken",
+      "testCaseId": 115898
+    },
+    {
+      "id": 11741275,
+      "name": "Asset price is sorted by TVL",
+      "status": "broken",
+      "testCaseId": 107879
+    },
+    {
+      "id": 11741277,
+      "name": "Markets list handles a jetton with 6 decimals",
+      "status": "broken",
+      "testCaseId": 107880
+    },
+    {
+      "id": 11741281,
+      "name": "Liquidity provision simulation updates after a new block",
+      "status": "broken",
+      "testCaseId": 116199
+    },
+    {
+      "id": 11741282,
+      "name": "Assets list returns 400 for an unknown asset",
+      "status": "broken",
+      "testCaseId": 115728
+    },
+    {
+      "id": 11741286,
+      "name": "API: Wallet farm positions filters by asset",
+      "status": "broken",
+      "testCaseId": 123108
+    },
+    {
+      "id": 11741291,
+      "name": "Swap status respects the slippage tolerance",
+      "status": "failed",
+      "testCaseId": 30670
+    },
+    {
+      "id": 11741299,
+      "name": "UI: Pools list returns the USD value",
+      "status": "failed",
+      "testCaseId": 125023
+    },
+    {
+      "id": 11741301,
+      "name": "UI: Liquidity withdrawal simulation handles a jetton with 6 decimals",
+      "status": "failed",
+      "testCaseId": 101547
+    },
+    {
+      "id": 11741304,
+      "name": "UI: Pools list returns the USD value",
+      "status": "failed",
+      "testCaseId": 125023
+    },
+    {
+      "id": 11741312,
+      "name": "UI: Pools list returns the USD value",
+      "status": "failed",
+      "testCaseId": 125023
+    },
+    {
+      "id": 11741313,
+      "name": "UI: Liquidity withdrawal simulation handles a jetton with 6 decimals",
+      "status": "broken",
+      "testCaseId": 101547
+    },
+    {
+      "id": 11741318,
+      "name": "UI: Liquidity withdrawal simulation handles a jetton with 6 decimals",
+      "status": "broken",
+      "testCaseId": 101547
+    },
+    {
+      "id": 11741345,
+      "name": "UI: Asset search returns 404 for an unknown address",
+      "status": "failed",
+      "testCaseId": 125022
+    },
+    {
+      "id": 11741361,
+      "name": "Pool volume chart respects the limit parameter",
+      "status": "broken",
+      "testCaseId": 90867
+    },
+    {
+      "id": 11741373,
+      "name": "UI: Assets list filters by asset",
+      "status": "broken",
+      "testCaseId": 101557
+    },
+    {
+      "id": 11741401,
+      "name": "UI: Assets list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 52149
+    },
+    {
+      "id": 11741418,
+      "name": "UI: Assets list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 52149
+    },
+    {
+      "id": 11741441,
+      "name": "UI: Assets list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 52149
+    },
+    {
+      "id": 11741455,
+      "name": "UI: Assets list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 52149
+    },
+    {
+      "id": 11741470,
+      "name": "UI: Assets list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 52149
+    },
+    {
+      "id": 11741488,
+      "name": "UI: Assets list handles a pool with zero reserves",
+      "status": "broken",
+      "testCaseId": 52149
+    },
+    {
+      "id": 11741496,
+      "name": "UI: Pool by address rejects a negative amount",
+      "status": "failed",
+      "testCaseId": 125069
+    },
+    {
+      "id": 11741498,
+      "name": "UI: Pool by address rejects a negative amount",
+      "status": "failed",
+      "testCaseId": 125069
+    },
+    {
+      "id": 11742814,
+      "name": "UI: Liquidity withdrawal simulation handles the TON native asset",
+      "status": "failed",
+      "testCaseId": 124950
+    },
+    {
+      "id": 11743285,
+      "name": "Liquidity withdrawal simulation returns 404 for an unknown address -- @1.1",
+      "status": "broken",
+      "testCaseId": 30432
+    },
+    {
+      "id": 11743287,
+      "name": "Router by address handles a v1 router -- @1.1",
+      "status": "broken",
+      "testCaseId": 54723
+    },
+    {
+      "id": 11743288,
+      "name": "Farms list handles a v1 router -- @1.1",
+      "status": "broken",
+      "testCaseId": 30590
+    },
+    {
+      "id": 11743291,
+      "name": "Wallet LP positions respects the limit parameter -- @1.1",
+      "status": "failed",
+      "testCaseId": 30440
+    },
+    {
+      "id": 11743292,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.1",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743303,
+      "name": "Router by address handles a v1 router -- @1.2",
+      "status": "broken",
+      "testCaseId": 54723
+    },
+    {
+      "id": 11743304,
+      "name": "Pool price chart returns the USD value -- @1.1",
+      "status": "broken",
+      "testCaseId": 53699
+    },
+    {
+      "id": 11743305,
+      "name": "Jetton metadata updates after a new block -- @1.2",
+      "status": "failed",
+      "testCaseId": 30445
+    },
+    {
+      "id": 11743307,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.2",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743309,
+      "name": "Jetton metadata handles a stable swap pool -- @1.1",
+      "status": "broken",
+      "testCaseId": 60671
+    },
+    {
+      "id": 11743316,
+      "name": "Router by address handles a v1 router -- @1.3",
+      "status": "broken",
+      "testCaseId": 54723
+    },
+    {
+      "id": 11743318,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.3",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743328,
+      "name": "Pool price chart returns the USD value -- @1.2",
+      "status": "broken",
+      "testCaseId": 53699
+    },
+    {
+      "id": 11743335,
+      "name": "Обратная симуляция свапа сортируется по TVL -- @1.1",
+      "status": "broken",
+      "testCaseId": 30596
+    },
+    {
+      "id": 11743339,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.4",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743341,
+      "name": "Router by address handles a v1 router -- @1.4",
+      "status": "broken",
+      "testCaseId": 54723
+    },
+    {
+      "id": 11743342,
+      "name": "Список роутеров соответствует схеме ответа -- @1.2",
+      "status": "broken",
+      "testCaseId": 30602
+    },
+    {
+      "id": 11743344,
+      "name": "Список роутеров соответствует схеме ответа -- @1.1",
+      "status": "broken",
+      "testCaseId": 30602
+    },
+    {
+      "id": 11743348,
+      "name": "Pool price chart returns the USD value -- @1.3",
+      "status": "broken",
+      "testCaseId": 53699
+    },
+    {
+      "id": 11743352,
+      "name": "История операций фильтрует по ассету -- @1.1",
+      "status": "broken",
+      "testCaseId": 30557
+    },
+    {
+      "id": 11743353,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.5",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743354,
+      "name": "Router by address handles a v1 router -- @1.5",
+      "status": "broken",
+      "testCaseId": 54723
+    },
+    {
+      "id": 11743364,
+      "name": "История операций фильтрует по ассету -- @1.2",
+      "status": "broken",
+      "testCaseId": 30557
+    },
+    {
+      "id": 11743366,
+      "name": "Pools list contains no blacklisted assets -- @1.1",
+      "status": "broken",
+      "testCaseId": 30363
+    },
+    {
+      "id": 11743375,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.6",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743376,
+      "name": "Список пулов возвращает суммы в nano -- @1.1",
+      "status": "broken",
+      "testCaseId": 30545
+    },
+    {
+      "id": 11743378,
+      "name": "Router by address handles a v1 router -- @1.6",
+      "status": "broken",
+      "testCaseId": 54723
+    },
+    {
+      "id": 11743379,
+      "name": "Pool price chart returns the USD value -- @1.4",
+      "status": "broken",
+      "testCaseId": 53699
+    },
+    {
+      "id": 11743381,
+      "name": "Обратная симуляция свапа сортируется по TVL -- @1.2",
+      "status": "broken",
+      "testCaseId": 30596
+    },
+    {
+      "id": 11743383,
+      "name": "Asset search matches the response schema -- @1.1",
+      "status": "broken",
+      "testCaseId": 52214
+    },
+    {
+      "id": 11743384,
+      "name": "Pools list contains no blacklisted assets -- @1.2",
+      "status": "broken",
+      "testCaseId": 30363
+    },
+    {
+      "id": 11743389,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.7",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743392,
+      "name": "Список пулов возвращает суммы в nano -- @1.2",
+      "status": "broken",
+      "testCaseId": 30545
+    },
+    {
+      "id": 11743394,
+      "name": "Симуляция свапа обрабатывает jetton с 6 знаками -- @1.1",
+      "status": "broken",
+      "testCaseId": 30598
+    },
+    {
+      "id": 11743395,
+      "name": "Pool volume chart is stable within one block -- @1.1",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743396,
+      "name": "Operations history returns 400 for an unknown asset -- @1.1",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743402,
+      "name": "Pools list contains no blacklisted assets -- @1.3",
+      "status": "broken",
+      "testCaseId": 30363
+    },
+    {
+      "id": 11743403,
+      "name": "Asset search matches the response schema -- @1.2",
+      "status": "broken",
+      "testCaseId": 52214
+    },
+    {
+      "id": 11743404,
+      "name": "Pool price chart returns the USD value -- @1.5",
+      "status": "broken",
+      "testCaseId": 53699
+    },
+    {
+      "id": 11743410,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.8",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743411,
+      "name": "Operations history returns 400 for an unknown asset -- @1.2",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743413,
+      "name": "Симуляция свапа обрабатывает jetton с 6 знаками -- @1.2",
+      "status": "broken",
+      "testCaseId": 30598
+    },
+    {
+      "id": 11743414,
+      "name": "Swap simulation handles a pool with zero reserves -- @1.1",
+      "status": "broken",
+      "testCaseId": 30574
+    },
+    {
+      "id": 11743415,
+      "name": "Pool volume chart is stable within one block -- @1.2",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743416,
+      "name": "Asset search matches the response schema -- @1.3",
+      "status": "broken",
+      "testCaseId": 52214
+    },
+    {
+      "id": 11743418,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.9",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743421,
+      "name": "Operations history returns 400 for an unknown asset -- @1.3",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743427,
+      "name": "Pool price chart returns the USD value -- @1.6",
+      "status": "broken",
+      "testCaseId": 53699
+    },
+    {
+      "id": 11743429,
+      "name": "Swap simulation handles a pool with zero reserves -- @1.2",
+      "status": "broken",
+      "testCaseId": 30574
+    },
+    {
+      "id": 11743430,
+      "name": "Pool volume chart is stable within one block -- @1.3",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743432,
+      "name": "Список роутеров обрабатывает роутер v2 -- @1.1",
+      "status": "broken",
+      "testCaseId": 30580
+    },
+    {
+      "id": 11743438,
+      "name": "Asset search matches the response schema -- @1.4",
+      "status": "broken",
+      "testCaseId": 52214
+    },
+    {
+      "id": 11743443,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.10",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743447,
+      "name": "Operations history returns 400 for an unknown asset -- @1.4",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743449,
+      "name": "Pool volume chart is stable within one block -- @1.4",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743452,
+      "name": "Список роутеров обрабатывает роутер v2 -- @1.2",
+      "status": "broken",
+      "testCaseId": 30580
+    },
+    {
+      "id": 11743456,
+      "name": "Asset search matches the response schema -- @1.5",
+      "status": "broken",
+      "testCaseId": 52214
+    },
+    {
+      "id": 11743463,
+      "name": "Router by address rejects an invalid address -- @1.1",
+      "status": "broken",
+      "testCaseId": 30428
+    },
+    {
+      "id": 11743464,
+      "name": "Operations history returns 400 for an unknown asset -- @1.5",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743467,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.11",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743469,
+      "name": "Список роутеров учитывает реферальную комиссию -- @1.1",
+      "status": "broken",
+      "testCaseId": 30542
+    },
+    {
+      "id": 11743472,
+      "name": "Pool volume chart is stable within one block -- @1.5",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743481,
+      "name": "Asset search matches the response schema -- @1.6",
+      "status": "broken",
+      "testCaseId": 52214
+    },
+    {
+      "id": 11743483,
+      "name": "Operations history returns 400 for an unknown asset -- @1.6",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743484,
+      "name": "Список роутеров учитывает реферальную комиссию -- @1.2",
+      "status": "broken",
+      "testCaseId": 30542
+    },
+    {
+      "id": 11743487,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.12",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743491,
+      "name": "Pool volume chart is stable within one block -- @1.6",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743492,
+      "name": "Router by address rejects an invalid address -- @1.2",
+      "status": "broken",
+      "testCaseId": 30428
+    },
+    {
+      "id": 11743501,
+      "name": "Operations history returns 400 for an unknown asset -- @1.7",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743503,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.13",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743510,
+      "name": "Pool volume chart is stable within one block -- @1.7",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743516,
+      "name": "Router by address rejects an invalid address -- @1.3",
+      "status": "broken",
+      "testCaseId": 30428
+    },
+    {
+      "id": 11743526,
+      "name": "Operations history returns 400 for an unknown asset -- @1.8",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743530,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.14",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743539,
+      "name": "Pool volume chart is stable within one block -- @1.10",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743551,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.15",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743554,
+      "name": "Operations history returns 400 for an unknown asset -- @1.9",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743558,
+      "name": "Pool volume chart is stable within one block -- @1.11",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743567,
+      "name": "Operations history returns 400 for an unknown asset -- @1.10",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743570,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.16",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743572,
+      "name": "Routers list rejects a negative amount -- @1.1",
+      "status": "failed",
+      "testCaseId": 30361
+    },
+    {
+      "id": 11743576,
+      "name": "Pool volume chart is stable within one block -- @1.12",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743580,
+      "name": "Routers list rejects a negative amount -- @1.2",
+      "status": "failed",
+      "testCaseId": 30361
+    },
+    {
+      "id": 11743583,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.17",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743584,
+      "name": "Operations history returns 400 for an unknown asset -- @1.11",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743587,
+      "name": "Routers list rejects a negative amount -- @1.3",
+      "status": "failed",
+      "testCaseId": 30361
+    },
+    {
+      "id": 11743590,
+      "name": "Routers list rejects a negative amount -- @1.4",
+      "status": "failed",
+      "testCaseId": 30361
+    },
+    {
+      "id": 11743593,
+      "name": "Asset search updates after a new block -- @1.1",
+      "status": "failed",
+      "testCaseId": 30358
+    },
+    {
+      "id": 11743596,
+      "name": "Pool volume chart is stable within one block -- @1.13",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743598,
+      "name": "Список фармов соответствует схеме ответа -- @1.1",
+      "status": "broken",
+      "testCaseId": 30537
+    },
+    {
+      "id": 11743599,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.18",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743600,
+      "name": "Симуляция свапа обрабатывает роутер v2 -- @1.1",
+      "status": "broken",
+      "testCaseId": 30539
+    },
+    {
+      "id": 11743601,
+      "name": "Operations history returns 400 for an unknown asset -- @1.12",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743612,
+      "name": "Обратная симуляция свапа возвращает суммы в nano -- @1.2",
+      "status": "broken",
+      "testCaseId": 30548
+    },
+    {
+      "id": 11743616,
+      "name": "Operations history returns 400 for an unknown asset -- @1.13",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743617,
+      "name": "Pool volume chart is stable within one block -- @1.14",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743618,
+      "name": "Список фармов соответствует схеме ответа -- @1.2",
+      "status": "broken",
+      "testCaseId": 30537
+    },
+    {
+      "id": 11743619,
+      "name": "Симуляция свапа обрабатывает роутер v2 -- @1.2",
+      "status": "broken",
+      "testCaseId": 30539
+    },
+    {
+      "id": 11743623,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.19",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743629,
+      "name": "Wallet LP positions updates after a new block",
+      "status": "broken",
+      "testCaseId": 41291
+    },
+    {
+      "id": 11743630,
+      "name": "Pool volume chart is stable within one block -- @1.15",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743633,
+      "name": "Operations history returns 400 for an unknown asset -- @1.14",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743638,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.20",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743640,
+      "name": "Wallet LP positions returns 400 for an unknown asset -- @1.2",
+      "status": "failed",
+      "testCaseId": 30366
+    },
+    {
+      "id": 11743646,
+      "name": "Referral fee stats contains no blacklisted assets -- @1.1",
+      "status": "broken",
+      "testCaseId": 30793
+    },
+    {
+      "id": 11743648,
+      "name": "Pool volume chart is stable within one block -- @1.16",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743654,
+      "name": "Operations history returns 400 for an unknown asset -- @1.15",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743656,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.21",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743661,
+      "name": "Swap status handles a stable swap pool -- @1.2",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743666,
+      "name": "Referral fee stats contains no blacklisted assets -- @1.2",
+      "status": "broken",
+      "testCaseId": 30793
+    },
+    {
+      "id": 11743667,
+      "name": "Pool volume chart is stable within one block -- @1.17",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743668,
+      "name": "Wallet LP positions returns 400 for an unknown asset -- @1.3",
+      "status": "failed",
+      "testCaseId": 30366
+    },
+    {
+      "id": 11743673,
+      "name": "Operations history returns 400 for an unknown asset -- @1.16",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743675,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.22",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743685,
+      "name": "Pool volume chart is stable within one block -- @1.18",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743691,
+      "name": "Operations history returns 400 for an unknown asset -- @1.17",
+      "status": "broken",
+      "testCaseId": 30419
+    },
+    {
+      "id": 11743701,
+      "name": "Wallet LP positions returns 400 for an unknown asset -- @1.4",
+      "status": "failed",
+      "testCaseId": 30366
+    },
+    {
+      "id": 11743705,
+      "name": "Liquidity withdrawal simulation is paginated -- @1.1",
+      "status": "broken",
+      "testCaseId": 30599
+    },
+    {
+      "id": 11743706,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.23",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743710,
+      "name": "Swap status handles a stable swap pool -- @1.4",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743717,
+      "name": "Pool volume chart is stable within one block -- @1.19",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743744,
+      "name": "Pool volume chart is stable within one block -- @1.20",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743748,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.25",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743780,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.26",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743781,
+      "name": "Swap status handles a stable swap pool -- @1.6",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743783,
+      "name": "Pool volume chart is stable within one block -- @1.21",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743786,
+      "name": "Wallet LP positions returns 400 for an unknown asset -- @1.5",
+      "status": "failed",
+      "testCaseId": 30366
+    },
+    {
+      "id": 11743791,
+      "name": "Liquidity withdrawal simulation is paginated -- @1.2",
+      "status": "broken",
+      "testCaseId": 30599
+    },
+    {
+      "id": 11743800,
+      "name": "Swap simulation handles a jetton with 6 decimals -- @1.27",
+      "status": "broken",
+      "testCaseId": 54562
+    },
+    {
+      "id": 11743802,
+      "name": "Swap status handles a stable swap pool -- @1.7",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743803,
+      "name": "Pool volume chart is stable within one block -- @1.22",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743820,
+      "name": "Swap status handles a stable swap pool -- @1.8",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743824,
+      "name": "Pool volume chart is stable within one block -- @1.23",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743836,
+      "name": "Wallet LP positions returns 400 for an unknown asset -- @1.6",
+      "status": "failed",
+      "testCaseId": 30366
+    },
+    {
+      "id": 11743848,
+      "name": "Swap status handles a stable swap pool -- @1.9",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743852,
+      "name": "Pool volume chart is stable within one block -- @1.24",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743879,
+      "name": "Wallet LP positions returns 400 for an unknown asset -- @1.7",
+      "status": "failed",
+      "testCaseId": 30366
+    },
+    {
+      "id": 11743880,
+      "name": "Pool volume chart is stable within one block -- @1.25",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743882,
+      "name": "Swap status handles a stable swap pool -- @1.10",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743906,
+      "name": "Swap status handles a stable swap pool -- @1.11",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743907,
+      "name": "Pool volume chart is stable within one block -- @1.26",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743912,
+      "name": "Поиск ассета сортируется по TVL -- @1.1",
+      "status": "broken",
+      "testCaseId": 30571
+    },
+    {
+      "id": 11743930,
+      "name": "Pool volume chart is stable within one block -- @1.27",
+      "status": "broken",
+      "testCaseId": 52082
+    },
+    {
+      "id": 11743935,
+      "name": "Swap status handles a stable swap pool -- @1.12",
+      "status": "broken",
+      "testCaseId": 30666
+    },
+    {
+      "id": 11743954,
+      "name": "DEX stats filters by asset -- @1.1",
+      "status": "broken",
+      "testCaseId": 30415
+    },
+    {
+      "id": 11743961,
+      "name": "Цена ассета возвращает суммы в nano -- @1.2",
+      "status": "broken",
+      "testCaseId": 30555
+    },
+    {
+      "id": 11743964,
+      "name": "Цена ассета возвращает суммы в nano -- @1.1",
+      "status": "broken",
+      "testCaseId": 30555
+    },
+    {
+      "id": 11744017,
+      "name": "Статистика пула соответствует схеме ответа -- @1.1",
+      "status": "broken",
+      "testCaseId": 30550
+    },
+    {
+      "id": 11744023,
+      "name": "Статистика пула соответствует схеме ответа -- @1.2",
+      "status": "broken",
+      "testCaseId": 30550
+    },
+    {
+      "id": 11744031,
+      "name": "Swap status handles a jetton with 6 decimals -- @1.2",
+      "status": "broken",
+      "testCaseId": 30407
+    },
+    {
+      "id": 11744045,
+      "name": "Transaction by hash matches the response schema -- @1.1",
+      "status": "broken",
+      "testCaseId": 60710
+    },
+    {
+      "id": 11744046,
+      "name": "Swap status handles a jetton with 6 decimals -- @1.3",
+      "status": "broken",
+      "testCaseId": 30407
+    },
+    {
+      "id": 11744048,
+      "name": "LP-позиции кошелька отклоняет отрицательную сумму -- @1.1",
+      "status": "broken",
+      "testCaseId": 30541
+    },
+    {
+      "id": 11744051,
+      "name": "Asset search handles a v1 router -- @1.1",
+      "status": "broken",
+      "testCaseId": 30427
+    },
+    {
+      "id": 11744052,
+      "name": "Поиск ассета возвращает суммы в nano -- @1.1",
+      "status": "broken",
+      "testCaseId": 30549
+    },
+    {
+      "id": 11744053,
+      "name": "Top pools widget matches the on-chain state -- @1.1",
+      "status": "broken",
+      "testCaseId": 30426
+    },
+    {
+      "id": 11744055,
+      "name": "Swap status handles a jetton with 6 decimals -- @1.4",
+      "status": "broken",
+      "testCaseId": 30407
+    },
+    {
+      "id": 11744056,
+      "name": "Список ассетов учитывает проскальзывание -- @1.1",
+      "status": "broken",
+      "testCaseId": 30540
+    },
+    {
+      "id": 11744058,
+      "name": "Transaction by hash matches the response schema -- @1.2",
+      "status": "broken",
+      "testCaseId": 60710
+    },
+    {
+      "id": 11744063,
+      "name": "LP-позиции кошелька отклоняет отрицательную сумму -- @1.2",
+      "status": "broken",
+      "testCaseId": 30541
+    },
+    {
+      "id": 11744066,
+      "name": "Routers list contains no blacklisted assets -- @1.1",
+      "status": "broken",
+      "testCaseId": 30583
+    },
+    {
+      "id": 11744068,
+      "name": "Wallet LP positions is stable within one block -- @1.1",
+      "status": "broken",
+      "testCaseId": 60635
+    },
+    {
+      "id": 11744069,
+      "name": "Swap status handles a jetton with 6 decimals -- @1.5",
+      "status": "broken",
+      "testCaseId": 30407
+    },
+    {
+      "id": 11744078,
+      "name": "Swap simulation returns 404 for an unknown address -- @1.1",
+      "status": "broken",
+      "testCaseId": 30408
+    },
+    {
+      "id": 11744079,
+      "name": "Wallet LP positions is stable within one block -- @1.2",
+      "status": "broken",
+      "testCaseId": 60635
+    },
+    {
+      "id": 11744081,
+      "name": "Swap status handles a jetton with 6 decimals -- @1.6",
+      "status": "broken",
+      "testCaseId": 30407
+    },
+    {
+      "id": 11744084,
+      "name": "Swap simulation returns 404 for an unknown address -- @1.2",
+      "status": "broken",
+      "testCaseId": 30408
+    },
+    {
+      "id": 11744089,
+      "name": "Пул по адресу обрабатывает роутер v2 -- @1.2",
+      "status": "broken",
+      "testCaseId": 30581
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": false,
+  "number": 0,
+  "numberOfElements": 500,
+  "pageable": {
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 500,
+    "paged": true,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "unpaged": false
+  },
+  "size": 500,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "totalElements": 685,
+  "totalPages": 2
+}

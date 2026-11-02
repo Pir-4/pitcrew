@@ -1,0 +1,59 @@
+{
+  "content": [
+    {
+      "id": 11890499,
+      "name": "API: Swap simulation rejects a request without the API key",
+      "status": "failed",
+      "testCaseId": 122461
+    },
+    {
+      "id": 11890500,
+      "name": "API: Routers overview holds valid router versions",
+      "status": "broken",
+      "testCaseId": 124669
+    },
+    {
+      "id": 11890501,
+      "name": "API: Pool by address returns fees and reserves",
+      "status": "broken",
+      "testCaseId": 89663
+    },
+    {
+      "id": 11890502,
+      "name": "API: Pools list filtered by asset",
+      "status": "broken",
+      "testCaseId": 100830
+    },
+    {
+      "id": 11890503,
+      "name": "API: Pool stats for a period",
+      "status": "broken",
+      "testCaseId": 106459
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": true,
+  "number": 0,
+  "numberOfElements": 5,
+  "pageable": {
+    "offset": 0,
+    "pageNumber": 0,
+    "pageSize": 500,
+    "paged": true,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "unpaged": false
+  },
+  "size": 500,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "totalElements": 5,
+  "totalPages": 1
+}

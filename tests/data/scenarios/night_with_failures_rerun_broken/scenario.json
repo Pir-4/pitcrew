@@ -1,0 +1,12 @@
+{
+  "nightly": {
+    "pipeline_id": 478951,
+    "launch_id": 276357,
+    "test_plan_id": 1387
+  },
+  "rerun": {
+    "pipeline_id": 481658,
+    "launch_id": 279328,
+    "test_plan_id": 12396
+  }
+}

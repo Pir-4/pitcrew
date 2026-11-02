@@ -1,0 +1,22 @@
+{
+  "baseRql": "id in [30941, 30991, 30992]",
+  "createdBy": "valentin.agapitov",
+  "createdDate": 1769161741520,
+  "id": 11066,
+  "lastModifiedBy": "valentin.agapitov",
+  "lastModifiedDate": 1793358821194,
+  "name": "ValentinAgapitov",
+  "projectId": 3,
+  "testCasesCount": 3,
+  "tree": {
+    "id": 5,
+    "name": "Features"
+  },
+  "treeSelection": {
+    "groupsExclude": [],
+    "groupsInclude": [],
+    "inverted": true,
+    "leafsExclude": [],
+    "leafsInclude": []
+  }
+}

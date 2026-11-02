@@ -1,0 +1,15 @@
+# Gateway that takes a Nightly run with over 10% of Failed tests for a down Environment:
+# night_with_failures (685 of 6292 results failed, 11%) is broken here, rerun under the base
+# ratio of 0.5.
+allure:
+  project_id: 3
+  nightly_test_plan_id: 1387
+  rerun_test_plan_id: 12396
+slack:
+  webhook_variable: SLACK_WEBHOOK_GATEWAY
+rerun:
+  max_failed_ratio: 0.1
+features:
+  rerun: true
+  conclusion: true
+  error_groups: true

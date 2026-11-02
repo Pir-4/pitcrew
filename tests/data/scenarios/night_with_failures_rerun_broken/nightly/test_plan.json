@@ -1,0 +1,22 @@
+{
+  "baseRql": "automation = true and not id in [30668, 48716, 31309, 53470]",
+  "createdBy": "anna.sokolova",
+  "createdDate": 1696960598903,
+  "id": 1387,
+  "lastModifiedBy": "ivan.petrov",
+  "lastModifiedDate": 1771256649789,
+  "name": "[Automation] Nightly Test Run (all automated tests)",
+  "projectId": 3,
+  "testCasesCount": 1675,
+  "tree": {
+    "id": 5,
+    "name": "Features"
+  },
+  "treeSelection": {
+    "groupsExclude": [],
+    "groupsInclude": [],
+    "inverted": true,
+    "leafsExclude": [],
+    "leafsInclude": []
+  }
+}

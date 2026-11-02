@@ -1,0 +1,29 @@
+{
+  "baseRql": "automation = True ",
+  "createdBy": "anna.sokolova",
+  "createdDate": 1774359723333,
+  "id": 11765,
+  "lastModifiedBy": "anna.sokolova",
+  "lastModifiedDate": 1793014408727,
+  "name": "[Automation] AK",
+  "projectId": 3,
+  "testCasesCount": 1,
+  "tree": {
+    "id": 5,
+    "name": "Features"
+  },
+  "treeSelection": {
+    "groupsExclude": [],
+    "groupsInclude": [
+      [
+        37532,
+        37585
+      ]
+    ],
+    "inverted": false,
+    "leafsExclude": [
+      31308
+    ],
+    "leafsInclude": []
+  }
+}

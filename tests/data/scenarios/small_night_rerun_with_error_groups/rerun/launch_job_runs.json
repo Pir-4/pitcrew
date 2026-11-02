@@ -1,0 +1,21 @@
+[
+  {
+    "createdBy": "admin",
+    "createdDate": 1792575743667,
+    "externalId": "483287",
+    "id": 315310,
+    "job": {
+      "id": 4963,
+      "name": "gateway / qa_automation",
+      "type": "gitlab",
+      "url": "https://gitlab.ston.fi/gateway/qa_automation/pipelines"
+    },
+    "lastModifiedBy": "admin",
+    "lastModifiedDate": 1792575996730,
+    "launchId": 280791,
+    "name": "483287",
+    "stage": "finished",
+    "status": "passed",
+    "url": "https://gitlab.ston.fi/gateway/qa_automation/-/pipelines/483287"
+  }
+]

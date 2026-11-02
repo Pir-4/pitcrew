@@ -1,0 +1,31 @@
+default_install_hook_types: [pre-commit, commit-msg]
+repos:
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.10.4
+    hooks:
+      - id: uv-lock
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.10
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+      - id: ruff-format
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+        args: ["--maxkb=1500"]
+      - id: no-commit-to-branch
+        name: "check branch name matches pattern {JIRA-ID}_{summary} or {lastname}/{JIRA-ID}_{summary}"
+        args:
+          [
+            "--pattern",
+            "^(?!([a-z]+(\/[a-zA-Z0-9_-]+)*\/)?(GW)-[0-9]+_[a-zA-Z0-9_-]+$).*"
+          ]
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.19.1
+    hooks:
+      - id: gitlint
+        stages: [commit-msg]

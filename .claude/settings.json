@@ -1,0 +1,144 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git branch*)",
+      "Bash(git show*)",
+      "Bash(git merge-base*)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git rebase*)",
+      "Bash(git merge *)",
+      "Bash(ls*)",
+      "Bash(pwd)",
+      "Bash(which *)",
+      "Bash(echo *)",
+      "Bash(cat pyproject.toml)",
+      "Bash(uv sync*)",
+      "Bash(uv lock*)",
+      "Bash(uv run ty*)",
+      "Bash(uv run ruff*)",
+      "Bash(uv run pytest*)",
+      "Bash(uv add*)",
+      "Bash(uv show*)",
+      "Bash(make lint*)",
+      "Bash(make test*)",
+      "Bash(make typecheck*)",
+      "Bash(make lock-check*)",
+      "Bash(rg *)",
+      "Bash(find *)",
+      "Bash(wc *)",
+      "Bash(jira-extractor *)",
+      "Bash(confluence-extractor *)",
+      "Skill(gitlab-mr)",
+      "Skill(gitlab-issue)",
+      "Skill(commit-message-format)",
+      "Skill(create-mr)",
+      "Bash(glab api \"projects/*)",
+      "Bash(glab issue list*)",
+      "Bash(glab issue view*)",
+      "Bash(glab issue create*)",
+      "Bash(glab issue update*)",
+      "Bash(glab issue note*)",
+      "Bash(glab label list*)",
+      "Bash(glab label create*)",
+      "Bash(glab mr list*)",
+      "Bash(glab mr view*)",
+      "Bash(glab mr diff*)",
+      "Bash(glab pipeline list*)",
+      "Bash(glab ci trace*)",
+      "Bash(jq *)",
+      "Edit(docs/**/*)",
+      "mcp__codebase-memory-mcp__search_graph",
+      "mcp__codebase-memory-mcp__search_code",
+      "mcp__codebase-memory-mcp__get_code_snippet",
+      "mcp__codebase-memory-mcp__trace_path",
+      "mcp__codebase-memory-mcp__query_graph",
+      "mcp__codebase-memory-mcp__get_architecture",
+      "mcp__codebase-memory-mcp__get_graph_schema",
+      "mcp__codebase-memory-mcp__list_projects",
+      "mcp__codebase-memory-mcp__index_status",
+      "mcp__codebase-memory-mcp__detect_changes",
+      "mcp__codebase-memory-mcp__index_repository",
+      "mcp__allure-testops__testops_get_project",
+      "mcp__allure-testops__testops_get_issue_details",
+      "mcp__allure-testops__testops_find_testcases",
+      "mcp__allure-testops__testops_find_testresults",
+      "mcp__allure-testops__testops_find_sharedsteps"
+    ],
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(chmod *)",
+      "Bash(ssh *)",
+      "Bash(scp *)",
+      "Bash(git reset --hard*)",
+      "Bash(pip *)",
+      "Bash(python -m pytest*)",
+      "Bash(ruff format *)",
+      "Bash(pre-commit run*)",
+      "Bash(pre-commit install*)",
+      "Bash(glab mr merge*)",
+      "Bash(glab mr approve*)",
+      "Bash(glab mr delete*)",
+      "Bash(glab issue delete*)",
+      "Read(./.env)",
+      "Read(**/.env)",
+      "Read(**/service.env)",
+      "Read(**/*secret*)",
+      "Read(**/*token*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "mcp__codebase-memory-mcp__delete_project",
+      "mcp__allure-testops__testops_delete_testcase",
+      "mcp__allure-testops__testops_delete_mute"
+    ],
+    "ask": [
+      "Bash(rm *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(git rm*)",
+      "Bash(git clean*)",
+      "Bash(uv run python*)",
+      "Bash(glab issue close*)",
+      "Bash(glab issue reopen*)",
+      "mcp__allure-testops__testops_create_testcase",
+      "mcp__allure-testops__testops_update_testcase",
+      "mcp__allure-testops__testops_restore_testcase",
+      "mcp__allure-testops__testops_create_sharedstep",
+      "mcp__allure-testops__testops_update_sharedstep",
+      "mcp__allure-testops__testops_create_mute"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "codebase-memory-mcp",
+    "allure-testops"
+  ],
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "H=\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/bash_guard.sh; if [ -x \"$H\" ]; then exec \"$H\"; else echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"ask\",\"permissionDecisionReason\":\"bash guard script missing or not executable (.claude/hooks/bash_guard.sh) - confirm manually\"}}'; fi"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/session_start.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "mattpocock-skills@claude-plugins-official": true
+  }
+}

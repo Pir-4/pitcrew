@@ -1,0 +1,61 @@
+workflow:
+  auto_cancel:
+    on_new_commit: interruptible
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    # Push to a branch without an open MR (avoids a duplicate branch + MR pipeline)
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_OPEN_MERGE_REQUESTS == null
+
+stages:
+  - check
+
+variables:
+  # uv cache inside the project dir so GitLab can cache it between jobs
+  UV_CACHE_DIR: $CI_PROJECT_DIR/.cache/uv
+  UV_LINK_MODE: copy
+  # Use the image's Python; the version is pinned by .python-version and the image tag
+  UV_PYTHON_DOWNLOADS: never
+
+# Same base image and uv version as the Dockerfile
+default:
+  image: python:3.13.14-slim
+  interruptible: true
+  cache:
+    key:
+      files:
+        - uv.lock
+    paths:
+      - .cache/uv
+  before_script:
+    - pip install --no-cache-dir uv==0.10.6
+    # --locked fails the job when uv.lock is out of date with pyproject.toml
+    - uv sync --locked
+  after_script:
+    - uv cache prune --ci
+
+lint:
+  stage: check
+  script:
+    - uv run ruff check .
+    - uv run ruff format --check .
+    - uv run ty check
+
+test:
+  stage: check
+  script:
+    # The Agent's tests run real git against a local bare repo; the slim image has none
+    - apt-get update -qq && apt-get install -y -qq --no-install-recommends git >/dev/null
+    # Coverage config and its floor (`fail_under`) live in pyproject.toml
+    - uv run pytest --junitxml=report.xml --cov --cov-report=term --cov-report=xml
+  # The total of the coverage report, shown on the job and the MR
+  coverage: '/^TOTAL.*\s(\d+(?:\.\d+)?)%$/'
+  artifacts:
+    when: always
+    expire_in: 1 week
+    reports:
+      junit: report.xml
+      # Covered and missed lines shown in the MR diff
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
